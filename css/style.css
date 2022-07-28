@@ -25,8 +25,12 @@ nav,.nav-bar{
     text-decoration: none;
     font-family: Roboto;
     font-weight: 500;
-    color:#81796e
+    color:#81796e;
 }
+.nav-item a:hover{
+    font-size: large;
+}
+
 .nav-item i{
     font-size: 30px;
 }
@@ -66,6 +70,11 @@ nav,.nav-bar{
     margin-left: 13%;
     padding-top: 7px;
 }
+.enlace:hover{
+    height: 30px;
+    background-color: #696662;
+    font-size: large;
+}
 .enlace a{
     text-decoration: none;
     font-family: Roboto;
@@ -74,6 +83,7 @@ nav,.nav-bar{
     
 
 }
+
 .titulo{
     font-family: Ruda;
     color: #81796e;
@@ -103,6 +113,9 @@ nav,.nav-bar{
     color: #81796e;
     font-weight: 600;
 }
+.cplanes:hover{
+    font-size: large;
+}
 .buton{
     text-align: center;
     background-color: #ffb951;
@@ -111,6 +124,9 @@ nav,.nav-bar{
     margin-right: 2%;
     padding-top:5px;
     padding-bottom: 5px;
+}
+.buton:hover{
+    background-image: linear-gradient(to bottom,#ffb951,#ffcd81 );
 }
 .carta-brand{
     display: grid;
@@ -123,6 +139,7 @@ nav,.nav-bar{
     margin-left: 40%;
     margin-right: 3%;
 }
+
 /* apartir de aca empieza la pagina de contacto */
 .contacto{
     display: grid;
