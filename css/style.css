@@ -1,0 +1,210 @@
+body{
+    margin: 0%;
+    list-style: none;
+}
+
+nav,.nav-bar{
+    background-color: #f9fafa;
+    width: auto;
+}
+.nav-bar:hover{
+    background-image: linear-gradient(to right,#f9fafa, #e8fafa);
+}
+.nav-brand{
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 20%;
+    margin-left: 5%;
+
+}
+.nav-item{
+    display:inline-flex;
+    margin-right: 7%;
+}
+.nav-item a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    color:#81796e
+}
+.nav-item i{
+    font-size: 30px;
+}
+.pprincipal{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.intro{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.cards{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+
+}
+
+.video{
+    margin: 1%;
+}
+.presen{
+    margin-left: 20px;
+}
+.enlace{
+    margin-top: 4%;
+    background-color:#81796e;
+    text-align: center;
+    border-radius: 5px;
+    width: 70%;
+    height: 28px;
+    margin-left: 13%;
+    padding-top: 7px;
+}
+.enlace a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 600;
+    color:#ffb951;
+    
+
+}
+.titulo{
+    font-family: Ruda;
+    color: #81796e;
+}
+.texto{
+    font-family: Roboto;
+    font-weight: 300;
+    color:#81796e;
+    font-size: larger;
+}
+.carta{
+    background-color: #d1ccc4;
+    height: 90%;
+    padding-left: 5%;
+}
+.texto1{
+    font-family: Roboto;
+    font-weight: 300;
+    color:#81796e;
+    margin-left: 12%;
+    margin-right: 12%;  
+    margin-bottom: 50px;     
+}   
+.cplanes{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #81796e;
+    font-weight: 600;
+}
+.buton{
+    text-align: center;
+    background-color: #ffb951;
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.carta-brand{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.carta-brand i{
+    margin-top: 10%;
+    color: #81796e;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-right: 3%;
+}
+/* apartir de aca empieza la pagina de contacto */
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+    ". contenido_form ."
+}
+.contenido_form{
+    grid-area: contenido_form;
+    text-align: center;
+}
+.form{
+    margin: 10px;
+    background-color:#d1ccc4 ;
+    font-family: Roboto;
+    color: #81796e;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.form input,textarea{
+    width: 90%;
+    margin-bottom: 3%;
+    height: 39px;
+    border-radius: 20%;
+    border-color: white;
+    font-family: Roboto;
+    
+}
+.form textarea{
+    height: 100px;
+    border-radius: 0%;
+    margin-bottom: -10px;
+    
+}
+.opcion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -15px;
+}
+.opcion input{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+button{
+    background-color: #cecece;
+    width: 50%;
+    height: 30px;
+    border-color: #cecece;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #81796e;
+}
+@media (max-width:700px) {
+    .pprincipal{
+        display: block;
+        grid-template-rows: 1fr 1fr;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .intro{
+        display: block;
+        grid-template-columns: 2fr 3fr;
+    }
+    .cards{
+        margin-top: 5%;
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1%;
+    
+    }
+    .carta{
+        margin-bottom: 10px;
+        background-color: #d1ccc4;
+        height: 90%;
+        padding-left: 5%;
+    }
+    .nav-item{
+        display:block;
+        margin-right: 7%;
+    }
+}
